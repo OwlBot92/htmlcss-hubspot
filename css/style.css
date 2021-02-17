@@ -379,20 +379,144 @@ main{
     background-position: center;
     background-size: contain;
     width: 100%;
-
-    /* test */
-    height: 300px;
-
     /* test TESTO */
     color: white;
 }
-
+/* gradient section 1 */
 .gradient-sect1 .text-container{
     text-align: center;
 }
 .gradient-sect1 .text-container h2{
     padding-top: 40px;
+    font-size: 30px;
 }
 .gradient-sect1 .text-container p{
     margin: 25px 0;
+    font-size: 14px;
+}
+
+
+/* gradient section 2 */
+.gradient-sect2{
+    padding-bottom: 60px;
+}
+
+.grid-cell{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 30px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+#n0m3, #n1m3{ /* riga 0 colonna 3    &   riga 1 colonna 3 */
+    border-right: none;
+}
+.first-row{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.grid-cell img{
+    height: 30px;
+}
+.grid-cell h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.grid-cell p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/* MACROSEZIONE 3 */
+.macrosection-three{
+    padding-top: 40px;
+    /* test */
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.spec-cen-b{
+    width: 80%;
+}
+
+/* colonna sinistra */
+.col-sx{
+    width: 35%;
+}
+.col-sx h2{
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.col-sx p{
+    padding-left: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.col-sx .strong-number{
+    font-weight: 900;
+}
+
+
+/* colonna destra */
+.col-dx{
+    width: 60%;
+    padding-left: 5%;
+}
+
+/* griglia di immagini */
+.companies-logo-block{
+    width: 25%;
+    padding: 10px 10px;
+}
+.companies-logo-img{
+    height: 13px;
+    text-align: center;
+}
+.companies-logo-img-little{
+    height: 30px;
+}
+
+/* lower block ultima sezione del MAIN */
+.lower-block{
+    padding-top: 50px;
+}
+/* sx column styling  */
+.sx{
+    width: 45%;
+}
+.sx h2{
+    padding: 30px 0;
+    font-size: 25px;
+}
+.sx p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.sx .btn-block{
+    margin: 20px 0;
+}
+.sx .orange-btn{
+    margin: 0;
+    padding: 15px 20px;
+}
+.sx p:last-child{
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* dx column styling woman img */
+.dx{
+    width: 55%;
+}
+.woman-block{
+    text-align: right;
+}
+#woman-img{
+    height: 350px;
 }
