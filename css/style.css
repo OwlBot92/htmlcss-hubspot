@@ -44,7 +44,7 @@ a i{
 
 
 /* REUSABLE CLASSES */
-
+.left-col
 /* vertical bar */
 .vertical-bar{
     border-left: 1px solid black ;
@@ -93,6 +93,13 @@ a i{
 .right-col{
     text-align: right;
 }
+
+.white-box{                   
+    background-color: white;                                      /* WHITE BOX */
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(189, 189, 189);                                
+}
+
 /* fine REUSABLE CLASSES */
 
 
@@ -120,8 +127,7 @@ header .left-col a:hover{
     position: fixed;
     width: 100%; /* altrimenti con position fixed perde la width */
     top: 0;
-    /* test */
-    /* background-color: cadetblue; */
+    z-index: 100;
 }
 .fa-search{
     color: #009eb9;
@@ -180,7 +186,7 @@ nav i:hover, #pricing:hover{
     background-size:contain;
     background-repeat: no-repeat;
     background-position: 100%;
-    min-width: 1226px; /* per evitare che il bordo grafico si disallinei dall'immagine */
+    min-width: 1300px; /* per evitare che il bordo grafico si disallinei dall'immagine */
 }
 .graphic-block{
     position: absolute;
@@ -222,16 +228,171 @@ nav i:hover, #pricing:hover{
 
 
 
+/* ---- MAIN STYLING ----- */
+main{
+    background-color: #f4f9fd;
+}
+/* MACROSEZIONE sezione 1 */
+
+/*  sezione 1 */
+/* .sect1{
+    width: 100%;
+} */
+.cube-img{
+    height: 180px;
+    margin-top: 50px;
+}
+.sect1 .centering-block{
+    width: 70%;
+    text-align: center;
+}
+.centered-p{
+    padding: 30px 110px;
+}
 
 
+/* sezione 2 */
+/* left-column */
+.sect2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* left-block */
+.learn-more{
+    width: 35%;
+    text-align: center;
+    padding: 70px 30px 40px 0;
+}
+.main-imgs{                             /* imgs SVG nel main */
+    height: 110px; 
+}
+.learn-more a{
+    margin: 0;
+}
+.btn-block{
+    padding: 25px 0;
+}
+
+/* right-column */
+.adv-stuff{
+    width: 65%;
+    padding: 70px 80px 60px 0;
+}
+.adv-stuff h2{
+    font-size: 23px;
+}
+.adv-stuff p{
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.adv-stuff h3{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    width: 30%;
+}
+.adv-stuff li{
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.adv-stuff i{
+    color: #fe775a;
+    margin-right: 10px;
+}
+/* horizontal line */
+.horizontal-inline-line{
+    vertical-align: middle;
+    border-top: 2px solid #33475b;
+    width: 60%;
+    margin-left: 5%;
+    display: inline-block;
+}
 
 
+/*  sezione 3*/
+.sect3{
+    margin-bottom: 40px;
+}
+.tribox{
+    width: 30%;
+}
+.middle-tribox{
+    margin: 0 5%;
+}
 
+/* UPPERDIV STYLING */
+.upper-div{
+    height: 350px; /* assegnato un'altezza fissa solo al div superiore in modo da tenere allineate le linee orizzontali */
+    text-align: center;
+    padding: 25px 25px 0 25px;
+}
+.upper-div h3{
+    font-size: 22px;
+    margin: 15px 0 30px 0;
+}
+.upper-div p{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* simil-hr */
+.simil-hr{
+    width: 85%;
+    margin: 0px auto 30px auto;
+    border-top: 2px solid black;
+}
 
+/* LOWERDIV STYLING */
+.lower-div h3{
+    font-size: 17px;
+    text-align: center;
+}
 
+.lower-div ul{
+    padding: 30px 50px;
+}
+.lower-div li{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+}
+.lower-div li i{
+    color: #fe775a;
+    margin-right: 5px;
+}
+.lower-div .btn-block{
+    text-align: center;
+}
+.lower-div .orange-btn{
+    padding: 15px 30px;
+    font-weight: 600;
+    margin: 0;
+}
 
+/* MACROSEZIONE 2 */
+.macrosection-two{
+    background-image: linear-gradient(to right, #00a8ba, #37c8b9);
+    background-position: center;
+    background-size: contain;
+    width: 100%;
 
+    /* test */
+    height: 300px;
 
+    /* test TESTO */
+    color: white;
+}
 
-
-
+.gradient-sect1 .text-container{
+    text-align: center;
+}
+.gradient-sect1 .text-container h2{
+    padding-top: 40px;
+}
+.gradient-sect1 .text-container p{
+    margin: 25px 0;
+}
