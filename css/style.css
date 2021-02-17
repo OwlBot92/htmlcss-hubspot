@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* lists&links reset */
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* FINE lists&links reset */
+
+
+/* colori del gradient: #01a6bb  #00baa8 */
+
+
+/* REUSABLE CLASSES */
+
+/* vertical bar */
+.vertical-bar{
+    border-left: 1px solid black ;
+    height: 12px;
+    margin: 0 15px;
+    background-color: blue;
+}
+
+
+/* clear fix class */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* bottoni arancioni */
+.orange-btn{
+    border-radius: 5px;
+    background-color: #fe775a;
+    font-size: 12px;
+    padding: 10px 15px; 
+    color: white;
+}
+.orange-btn:hover{
+    background-color: rgba(254, 119, 90, .6);
+}
+
+/* width&margin */
+.centering-block{
+    width: 85%;
+    margin: auto;
+
+    /* test */
+    /* background-color: rgb(141, 141, 245); */
+}
+
+.clearfixed-block{
+    float: left;
+    
+    /* test */
+    width: 50%;
+    /* background-color: brown; */
+}
+
+
+/* to make the content stick to the right */
+.right-col{
+    text-align: right;
+}
+
+/* fine REUSABLE CLASSES */
+
+
+/* HEADER STYLING */
+    /* fixed nav styling */
+header .left-col div{
+    display: inline-block;
+}
+header .left-col div span{
+    font-size: 12px;
+}
+
+.fixed-nav{
+    /* diventerà */
+    background-color: #f4f9fd;
+    border-bottom: 1px solid #32495b;
+    padding: 20px 0;
+
+    /* test */
+    /* background-color: cadetblue; */
+}
+
+.fa-search{
+    color: #009eb9;
+}
+.fa-search:hover{
+    color: #fe775a;
+}
+
+header .right-col .orange-btn{
+    margin-left: 20px;
+}
+.white-btn{
+    background-color: white;
+    border: 1px solid #fe775a;
+    color: #fe775a;
+}
+.white-btn:hover{
+    background-color: #fe775a;
+    color: white;
+} 
