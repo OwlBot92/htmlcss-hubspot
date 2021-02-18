@@ -431,9 +431,8 @@ main{
 
 /* MACROSEZIONE 3 */
 .macrosection-three{
-    padding-top: 40px;
+    padding: 40px 0;
     /* test */
-    height: 500px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -519,4 +518,89 @@ main{
 }
 #woman-img{
     height: 350px;
+}
+
+
+/* ---- FOOTER ----- */
+
+footer {
+    padding-top: 30px;
+    background-color: #32495b;
+    color: white;
+}
+
+footer .clearfixed-block{
+    width: 25%;
+}
+footer .clearfixed-block .foo-li{
+    display: block;
+    padding-top: 13px;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer .clearfixed-block h4{
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+footer .clearfixed-block .btn-block{
+    padding: 25px 0 15px 0;
+}
+#support-btn{
+    background-color: white;
+    margin: 0;
+    padding: 10px 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+}
+#support-btn:hover{
+    border: 1px solid white;
+    background-color: #32495b;
+    color: white;
+}   
+
+.icon-li {
+    padding: 10px 10px 10px 0;
+}
+.icon-li:hover{
+    cursor: pointer;
+    color: #fe775a;
+}
+
+/* middle footer block */
+.middle-footer-block{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+
+.middle-footer-block li{
+    padding-right: 15px;
+}
+
+/* LOWER FOOTER block */
+footer .lower-footer-block .clearfixed-block{
+    width: 50%;
+    
+}
+
+.footer-logo-block{
+    color: white;
+}
+
+.policy-list-block{
+    text-align: right;
+    color: white;
+    font-size: 12px;
+}
+.legal-list li{
+    margin-left: 15px;
+}
+
+.lower-footer-block{
+    padding-bottom: 40px;
 }
