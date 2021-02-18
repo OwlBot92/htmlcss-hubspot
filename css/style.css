@@ -32,15 +32,11 @@ a{
     margin-left: 10px;
     color: black;
 }
-
-
 a i{
     margin-left: 10px;
 }
 /* FINE lists&links reset */
 
-
-/* colori del gradient: #01a6bb  #00baa8 */
 
 
 /* REUSABLE CLASSES */
@@ -51,15 +47,12 @@ a i{
     height: 12px;
     margin: 0 15px;
 }
-
-
 /* clear fix class */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-
 /* bottoni arancioni */
 .orange-btn{
     border-radius: 5px;
@@ -71,22 +64,16 @@ a i{
 .orange-btn:hover{
     background-color: rgba(254, 119, 90, .6);
 }
-
 /* width&margin */
 .centering-block{
     width: 85%;
     margin: auto;
-
-    /* test */
-    /* background-color: rgb(141, 141, 245); */
 }
 
 .clearfixed-block{
     float: left;
-    
-    /* test */
+    /* da cambiare a 25% in alcuni blocchi */
     width: 50%;
-    /* background-color: brown; */
 }
 
 /* to make the content stick to the right */
@@ -460,7 +447,7 @@ main{
 }
 
 
-/* colonna destra */                             /*style GRIGLIA di loghi aziende */
+/* colonna destra */                             /*style GRIGLIA di LOGHI AZIENDE */
 .col-dx{
     width: 60%;
 }
@@ -472,12 +459,8 @@ main{
     /* 25% le mandava a capo */
     width: 24%;
 }
-/* padd 9 PX #atlassian #doordash #vmware*/
-.padd9{
-    padding-bottom: 10px;
-}
-#wistia{
-    padding-bottom: 13px;
+.companies-logo-img{
+    vertical-align: middle;
 }
 
 
