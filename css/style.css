@@ -460,24 +460,26 @@ main{
 }
 
 
-/* colonna destra */
+/* colonna destra */                             /*style GRIGLIA di loghi aziende */
 .col-dx{
     width: 60%;
-    padding-left: 5%;
 }
 
-/* griglia di immagini */
-.companies-logo-block{
-    width: 25%;
-    padding: 10px 10px;
+.logos-row img{
+    width: 80%;
 }
-.companies-logo-img{
-    height: 13px;
-    text-align: center;
+.logos-row li{
+    /* 25% le mandava a capo */
+    width: 24%;
 }
-.companies-logo-img-little{
-    height: 30px;
+/* padd 9 PX #atlassian #doordash #vmware*/
+.padd9{
+    padding-bottom: 10px;
 }
+#wistia{
+    padding-bottom: 13px;
+}
+
 
 /* lower block ultima sezione del MAIN */
 .lower-block{
